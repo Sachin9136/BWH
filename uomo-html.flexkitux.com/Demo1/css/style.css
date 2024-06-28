@@ -9599,7 +9599,9 @@ img {
   color: #fff;
   background-color: #222222;
   border-color: #222222;
-  box-shadow: none; }
+  box-shadow: none; 
+  border-radius: 10px;
+}
   .btn-primary:hover {
     color: #fff;
     background-color: #1d1d1d;
@@ -10285,7 +10287,7 @@ img {
   background-clip: padding-box;
   border: 0.125rem solid #e4e4e4;
   appearance: none;
-  border-radius: 0;
+  border-radius: 10px;
   box-shadow: none;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
@@ -12974,7 +12976,7 @@ textarea.form-control-lg {
   position: absolute;
   top: calc(100% + .75rem);
   left: 0;
-  width: 49.6875rem;
+  /* width: 49.6875rem; */
   padding: 2.5rem 3.75rem 2rem;
   background-color: #ffffff;
   box-shadow: 0 0.625rem 1.5625rem 0 rgba(34, 34, 34, 0.05);
@@ -13455,7 +13457,9 @@ textarea.form-control-lg {
   width: 100%;
   max-width: 100%;
   z-index: 9;
-  transition: all .3s ease; }
+  transition: all .3s ease; 
+  box-shadow: 1px 1px 15px #bfb5b5;
+}
 
 .header_sticky-active {
   position: fixed;
@@ -13658,7 +13662,9 @@ textarea.form-control-lg {
     opacity: 1; }
   .footer-mobile.footer-mobile_initialized {
     bottom: 0;
-    transition: all .32s; }
+    transition: all .32s; 
+    display: none;
+  }
 
 .footer-mobile__link {
   font-size: 0.8125rem; }
@@ -16030,7 +16036,9 @@ button.js-add-wishlist.active .flaticon.flaticon-heart, a.add-to-wishlist.active
   min-width: 12.5rem;
   height: 3.75rem;
   text-transform: uppercase;
-  font-size: 0.875rem; }
+  font-size: 1rem;
+  font-weight: bold;
+}
 
 .lookbook .page-title {
   font-size: calc(1.34375rem + 1.125vw);
